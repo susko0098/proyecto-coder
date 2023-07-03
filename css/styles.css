@@ -33,17 +33,7 @@ header{
 /*header*/
 
 
-.cont-header{
 
-    background-color: whitesmoke;
-    display:grid;
-
-    height: 15vh;
-
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    justify-items: center;
-}
 
 .nav-list{
     padding: 2px;
