@@ -15,6 +15,9 @@ h1{
     color: blue;
 }
 
+p{
+    font-size: 1.2rem;
+}
 
 
 ul{
@@ -44,9 +47,23 @@ header{
 
 /*main */
 
+.back-link{
+    color: white;
+    background-color: black;
+    border: azure 1px solid;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+/*footer*/
+
 footer {
     background-color: black;
     color: white;
+}
+
+.list-style{
+    list-style: square;
 }
 
 
