@@ -29,14 +29,16 @@ a{
     text-decoration: none;
 }
 
-header{
-    background-color: black;
+.container{
+    border: 2px solid black;
 }
+
 
 /*header*/
 
-
-
+header{
+    background-color: black;
+}
 
 .nav-list{
     padding: 2px;
@@ -46,6 +48,11 @@ header{
 }
 
 /*main */
+
+form{
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
 
 .back-link{
     color: white;
