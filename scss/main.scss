@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: fantasy;
+    color: blue;
+    font-size: 60px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+}
+
+.nav-list{
+    padding: 2px;
+    color: red;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.container{
+    border: 2px solid black;
+}
+
+main{
+    form{
+        background-color: whitesmoke;
+        border: 1px solid black;
+    }
+}
+
+.back-link{
+    color: white;
+    background-color: black;
+    border: 1px solid azure ;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+
+    ul{
+        list-style: square;
+    }
+}
