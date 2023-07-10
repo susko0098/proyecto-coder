@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-family: fantasy;
+    color: blue;
+    font-size: 60px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.nav-list{
+    padding: 2px;
+    color: red;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.container{
+    border: 2px solid black;
+}

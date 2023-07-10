@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: fantasy;
   color: blue;
@@ -18,19 +27,6 @@ p {
   font-size: 1.2rem;
 }
 
-ul {
-  list-style: none;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-header {
-  background-color: black;
-}
-
 .nav-list {
   padding: 2px;
   color: red;
@@ -42,17 +38,13 @@ header {
   border: 2px solid black;
 }
 
+header {
+  background-color: black;
+}
+
 main form {
   background-color: whitesmoke;
   border: 1px solid black;
-}
-
-.back-link {
-  color: white;
-  background-color: black;
-  border: 1px solid azure;
-  padding: 2px;
-  margin-bottom: 5px;
 }
 
 footer {
@@ -61,6 +53,14 @@ footer {
 }
 footer ul {
   list-style: square;
+}
+
+.back-link {
+  color: white;
+  background-color: black;
+  border: 1px solid azure;
+  padding: 2px;
+  margin-bottom: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
