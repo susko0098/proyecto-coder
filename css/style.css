@@ -15,7 +15,7 @@ a {
 
 h1 {
   font-family: fantasy;
-  color: blue;
+  color: white;
   font-size: 60px;
 }
 
@@ -27,9 +27,19 @@ p {
   font-size: 1.2rem;
 }
 
+.nav-list:hover {
+  background-color: black;
+  margin: 4px;
+  border: 2px solid white;
+}
+.nav-list:hover a {
+  color: white;
+  font-size: 1.5rem;
+}
+
 .nav-list {
   padding: 2px;
-  color: red;
+  color: black;
   background-color: white;
   border: 2px solid black;
 }
@@ -40,6 +50,10 @@ p {
 
 header {
   background-color: black;
+}
+header a {
+  color: black;
+  font-family: cursive;
 }
 
 main form {
@@ -54,6 +68,9 @@ footer {
 footer ul {
   list-style: square;
 }
+footer a {
+  color: blue;
+}
 
 .back-link {
   color: white;
@@ -61,6 +78,9 @@ footer ul {
   border: 1px solid azure;
   padding: 2px;
   margin-bottom: 5px;
+}
+.back-link a {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
