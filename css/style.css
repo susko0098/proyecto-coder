@@ -11,20 +11,24 @@ ul {
 
 a {
   text-decoration: none;
+  font-family: initial;
 }
 
 h1 {
   font-family: fantasy;
   color: white;
   font-size: 60px;
+  text-shadow: 0px 0px 30px red;
 }
 
 h2 {
   text-align: center;
+  font-family: initial;
 }
 
 p {
   font-size: 1.2rem;
+  font-family: initial;
 }
 
 .nav-list:hover {
@@ -55,6 +59,9 @@ header a {
   color: black;
   font-family: cursive;
 }
+header ul li {
+  cursor: pointer;
+}
 
 main form {
   background-color: whitesmoke;
@@ -72,6 +79,10 @@ footer a {
   color: blue;
 }
 
+footer:hover a {
+  color: red;
+}
+
 .back-link {
   color: white;
   background-color: black;
@@ -81,6 +92,15 @@ footer a {
 }
 .back-link a {
   color: white;
+}
+
+.back-link:hover {
+  font-size: 1.2rem;
+}
+
+.list-style {
+  font-family: initial;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
