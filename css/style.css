@@ -81,30 +81,36 @@ footer {
 }
 footer ul {
   list-style: square;
-  color: white;
 }
 
-.final-list {
-  color: blue;
+.final-list a {
+  color: red;
+  font-family: cursive;
 }
 
 .final-list:hover a {
-  color: red;
+  color: white;
 }
 
 .back-link {
+  font-size: 1rem;
   color: white;
   background-color: black;
   border: 1px solid azure;
-  padding: 2px;
-  margin-bottom: 5px;
+  padding: 3px;
+  margin-bottom: 8px;
 }
 .back-link a {
   color: white;
+  font-family: cursive;
 }
 
 .back-link:hover {
-  font-size: 1.2rem;
+  background-color: white;
+  border: 3px solid black;
+}
+.back-link:hover a {
+  color: black;
 }
 
 .list-style {

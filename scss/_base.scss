@@ -1,42 +1,42 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: whitesmoke;
 }
 
-ul{
+ul {
     list-style: none;
     text-decoration: none;
 }
 
-a{
+a {
     text-decoration: none;
     font-family: initial;
 }
 
-h1{
+h1 {
     font-family: fantasy;
     color: white;
     font-size: 60px;
     text-shadow: 0px 0px 30px red;
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: initial;
 }
 
-p{
+p {
     font-size: 1.2rem;
     font-family: initial;
 }
 
-.container{
+.container {
     border: 2px solid black;
 }
 
-$bg-h-f:black;
+$bg-h-f: black;

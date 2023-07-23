@@ -1,33 +1,33 @@
-header{
+header {
     background-color: $bg-h-f;
 
-    a{
+    a {
         color: black;
         font-family: cursive;
     }
 
-    ul{
-        li{
+    ul {
+        li {
             cursor: pointer;
         }
     }
 }
 
-.nav-list{
+.nav-list {
     padding: 2px;
     color: black;
     background-color: white;
     border: 2px solid black;
 }
 
-.nav-list:hover{
+.nav-list:hover {
     background-color: black;
     margin: 4px;
     border: 2px solid white;
-    a{
+
+    a {
         color: white;
         font-size: 1.5rem;
-        
+
     }
 }
-

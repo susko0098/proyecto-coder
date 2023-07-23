@@ -1,19 +1,24 @@
-footer{
+footer {
     background-color: $bg-h-f;
     color: white;
 
-    ul{
+    ul {
         list-style: square;
-        color: white
+
     }
 }
 
-.final-list{
-    color: blue;
+.final-list {
+
+    a {
+        color: red;
+        font-family: cursive;
+
+    }
 }
 
-.final-list:hover{
-    a{
-        color: red;
+.final-list:hover {
+    a {
+        color: white;
     }
 }
