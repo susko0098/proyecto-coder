@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 ul{
     list-style: none;
     text-decoration: none;
@@ -31,24 +35,8 @@ p{
     font-family: initial;
 }
 
-.nav-list:hover{
-    background-color: black;
-    margin: 4px;
-    border: 2px solid white;
-    a{
-        color: white;
-        font-size: 1.5rem;
-        
-    }
-}
-
-.nav-list{
-    padding: 2px;
-    color: black;
-    background-color: white;
-    border: 2px solid black;
-}
-
 .container{
     border: 2px solid black;
 }
+
+$bg-h-f:black;

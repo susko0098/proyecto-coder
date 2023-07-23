@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 ul {
   list-style: none;
   text-decoration: none;
@@ -31,23 +35,6 @@ p {
   font-family: initial;
 }
 
-.nav-list:hover {
-  background-color: black;
-  margin: 4px;
-  border: 2px solid white;
-}
-.nav-list:hover a {
-  color: white;
-  font-size: 1.5rem;
-}
-
-.nav-list {
-  padding: 2px;
-  color: black;
-  background-color: white;
-  border: 2px solid black;
-}
-
 .container {
   border: 2px solid black;
 }
@@ -63,6 +50,26 @@ header ul li {
   cursor: pointer;
 }
 
+.nav-list {
+  padding: 2px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.nav-list:hover {
+  background-color: black;
+  margin: 4px;
+  border: 2px solid white;
+}
+.nav-list:hover a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+main {
+  background-color: white;
+}
 main form {
   background-color: whitesmoke;
   border: 1px solid black;
@@ -74,12 +81,14 @@ footer {
 }
 footer ul {
   list-style: square;
+  color: white;
 }
-footer a {
+
+.final-list {
   color: blue;
 }
 
-footer:hover a {
+.final-list:hover a {
   color: red;
 }
 
