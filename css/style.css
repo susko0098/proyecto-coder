@@ -86,6 +86,7 @@ footer ul {
 .final-list a {
   color: red;
   font-family: cursive;
+  font-size: 1rem;
 }
 
 .final-list:hover a {
