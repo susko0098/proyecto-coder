@@ -18,12 +18,14 @@ header {
     color: #000000;
     background-color: #ffffff;
     border: 2px solid #000000;
+    transition: all 1.5s;
 }
 
 .nav-list:hover {
     background-color: #000000;
     margin: 4px;
     border: 2px solid #ffffff;
+    transition: all 0.5s;
 
     a {
         color: #ffffff;
