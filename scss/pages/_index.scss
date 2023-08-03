@@ -1,22 +1,22 @@
 .back-link {
     font-size: 1rem;
-    color: white;
-    background-color: black;
-    border: 1px solid azure;
+    color: #ffffff;
+    background-color: #000000;
+    border: 1px solid #f0ffff;
     padding: 3px;
     margin-bottom: 8px;
 
     a {
-        color: white;
+        color: #ffffff;
         font-family: cursive;
     }
 }
 
 .back-link:hover {
-    background-color: white;
-    border: 3px solid black;
+    background-color: #ffffff;
+    border: 3px solid #000000;
 
     a {
-        color: black;
+        color: #000000;
     }
 }

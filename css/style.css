@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }
 
 ul {
@@ -20,9 +20,9 @@ a {
 
 h1 {
   font-family: fantasy;
-  color: white;
+  color: #ffffff;
   font-size: 60px;
-  text-shadow: 0px 0px 30px red;
+  text-shadow: 0px 0px 30px #ff0000;
 }
 
 h2 {
@@ -33,14 +33,15 @@ h2 {
 p {
   font-size: 1.2rem;
   font-family: initial;
+  margin-top: 20px;
 }
 
 .container {
-  border: 2px solid black;
+  border: 2px solid #000000;
 }
 
 header {
-  background-color: black;
+  background-color: #000000;
 }
 header a {
   color: black;
@@ -52,71 +53,91 @@ header ul li {
 
 .nav-list {
   padding: 2px;
-  color: black;
-  background-color: white;
-  border: 2px solid black;
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #000000;
 }
 
 .nav-list:hover {
-  background-color: black;
+  background-color: #000000;
   margin: 4px;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
 }
 .nav-list:hover a {
-  color: white;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 
 main {
-  background-color: white;
+  background-color: #d1cfcf;
 }
 main form {
-  background-color: whitesmoke;
-  border: 1px solid black;
+  background-color: #d1cfcf;
+  border: 1px solid #000000;
 }
 
 footer {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 footer ul {
   list-style: square;
 }
 
 .final-list a {
-  color: red;
+  color: #ff0000;
   font-family: cursive;
   font-size: 1rem;
 }
 
 .final-list:hover a {
-  color: white;
+  color: #ffffff;
 }
 
 .back-link {
   font-size: 1rem;
-  color: white;
-  background-color: black;
-  border: 1px solid azure;
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #f0ffff;
   padding: 3px;
   margin-bottom: 8px;
 }
 .back-link a {
-  color: white;
+  color: #ffffff;
   font-family: cursive;
 }
 
 .back-link:hover {
-  background-color: white;
-  border: 3px solid black;
+  background-color: #ffffff;
+  border: 3px solid #000000;
 }
 .back-link:hover a {
-  color: black;
+  color: #000000;
 }
 
 .list-style {
   font-family: initial;
   font-size: 1.2rem;
+}
+
+.img-manos {
+  margin-top: 30px;
+}
+
+.sub-titulo {
+  margin: 10px;
+}
+
+main form div {
+  margin: 5px;
+}
+main form div input {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+main form div textarea {
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 footer {
     background-color: $bg-h-f;
-    color: white;
+    color: #ffffff;
 
     ul {
         list-style: square;
@@ -11,7 +11,7 @@ footer {
 .final-list {
 
     a {
-        color: red;
+        color: #ff0000;
         font-family: cursive;
         font-size: 1rem;
 
@@ -20,6 +20,6 @@ footer {
 
 .final-list:hover {
     a {
-        color: white;
+        color: #ffffff;
     }
 }
